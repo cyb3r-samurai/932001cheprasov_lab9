@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>lab9cheprasov</title>
+    </head>
+    <body>
+        <main>
+           <div class="calculator">
+                <div class="output">
+                    <div id="id01"class="previouse-operand"></div>
+                    <div id="id02"class="current-operand"></div>
+                </div>
+           
+           <table>
+                <tr>
+                    <td><button class="button" data-number>7</button></td>
+                    <td><button data-number >8</button></td>
+                    <td><button data-number >9</button></td>
+                    <td><button data-operation>/</button></td>
+                    <td><button id="clear">C</button></td>
+                </tr>
+                <tr>
+                    <td><button data-number >4</button></td>
+                    <td><button data-number >5</button></td>
+                    <td><button data-number >6</button></td>
+                    <td><button data-operation >*</button></td>
+                    <td><button id="delete" ><-</button></td>
+                </tr>
+                <tr>
+                    <td><button data-number >1</button></td>
+                    <td><button data-number >2</button></td>
+                    <td><button data-number >3</button></td>
+                    <td><button data-operation>-</button></td>
+                    <td rowspan="2"><button id="equal" class="rspan">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button data-number class="cspan">0</button></td>
+                    <td><button  data-number >.</button></td>
+                    <td><button data-operation>+</button></td>
+                </tr>
+           </table>
+        </div>
+        </main>
+    </body>
+    <script src="js/myscript.js"></script>
+</html>
